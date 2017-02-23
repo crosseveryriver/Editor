@@ -26,7 +26,7 @@ public class EditorController {
     }
 
     @RequestMapping("/getAutoSavedArticle")
-    public Article getAutoSavedArticle(String user){
-        return articleService.getAutoSavedArticle(user);
+    public Article getAutoSavedArticle(String writer){
+        return articleService.getAutoSavedArticle(writer);
     }
 }
