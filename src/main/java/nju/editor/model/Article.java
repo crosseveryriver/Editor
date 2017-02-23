@@ -1,10 +1,13 @@
 package nju.editor.model;
 
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import java.sql.Timestamp;
+import java.util.Date;
 
 /**
  * Created by river on 2/23/17.
@@ -14,14 +17,25 @@ public class Article {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
+    private Integer writer;
     private String html;
     private String css;
     private String js;
-    private Timestamp created_at;
-    private Timestamp Updated_at;
+    @CreationTimestamp
+    private Date createdAt;
+    @UpdateTimestamp
+    private Date updatedAt;
 
     public Integer getId() {
         return id;
+    }
+
+    public Integer getWriter() {
+        return writer;
+    }
+
+    public void setWriter(Integer writer) {
+        this.writer = writer;
     }
 
     public void setId(Integer id) {
@@ -52,19 +66,20 @@ public class Article {
         this.js = js;
     }
 
-    public Timestamp getCreated_at() {
-        return created_at;
+
+    public Date getCreatedAt() {
+        return createdAt;
     }
 
-    public void setCreated_at(Timestamp created_at) {
-        this.created_at = created_at;
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
     }
 
-    public Timestamp getUpdated_at() {
-        return Updated_at;
+    public Date getUpdatedAt() {
+        return updatedAt;
     }
 
-    public void setUpdated_at(Timestamp updated_at) {
-        Updated_at = updated_at;
+    public void setUpdatedAt(Date updatedAt) {
+        this.updatedAt = updatedAt;
     }
 }
