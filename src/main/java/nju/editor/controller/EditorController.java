@@ -21,12 +21,12 @@ public class EditorController {
     private ArticleService articleService;
 
     @RequestMapping("/save")
-    public void save(User user,Article article){
-        articleService.saveArticle(user,article);
+    public void save(Article article){
+        articleService.saveArticle(article);
     }
 
     @RequestMapping("/getAutoSavedArticle")
-    public Article getAutoSavedArticle(User user){
+    public Article getAutoSavedArticle(String user){
         return articleService.getAutoSavedArticle(user);
     }
 }

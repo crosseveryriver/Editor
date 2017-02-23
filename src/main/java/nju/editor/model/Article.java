@@ -17,7 +17,8 @@ public class Article {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
-    private Integer writer;
+    private String writer;
+    private String title;
     private String html;
     private String css;
     private String js;
@@ -30,12 +31,20 @@ public class Article {
         return id;
     }
 
-    public Integer getWriter() {
+    public String getWriter() {
         return writer;
     }
 
-    public void setWriter(Integer writer) {
+    public void setWriter(String writer) {
         this.writer = writer;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public void setId(Integer id) {

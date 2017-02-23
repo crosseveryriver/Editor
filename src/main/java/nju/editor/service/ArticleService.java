@@ -8,6 +8,6 @@ import org.springframework.stereotype.Service;
  * Created by wangzehao on 2017/2/23.
  */
 public interface ArticleService {
-    void saveArticle(User user,Article article);
-    Article getAutoSavedArticle(User user);
+    void saveArticle(Article article);
+    Article getAutoSavedArticle(String user);
 }

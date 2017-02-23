@@ -19,18 +19,12 @@ public class ArticleServiceImpl implements ArticleService {
     UserService userService;
 
     @Override
-    public void saveArticle(User user, Article article) {
-        if(userService.checkPassword(user)){
-            article.setWriter(user.getId());
-            articleRepository.save(article);
-        }
+    public void saveArticle(Article article) {
+        articleRepository.save(article);
     }
 
     @Override
-    public Article getAutoSavedArticle(User user) {
-        if(userService.checkPassword(user)){
-            return articleRepository.getArticleByWriterOrderByCreatedAtDesc(user.getId()).get(0);
-        }
-        return null;
+    public Article getAutoSavedArticle(String user) {
+        return articleRepository.getArticleByWriterOrderByCreatedAtDesc(user).get(0);
     }
 }
