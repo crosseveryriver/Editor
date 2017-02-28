@@ -20,8 +20,8 @@ public class EditorController {
     @Autowired
     private ArticleService articleService;
 
-    @RequestMapping("/save")
-    public void save(Article article){
+    @RequestMapping("/autosave")
+    public void autosave(Article article){
         articleService.saveArticle(article);
     }
 

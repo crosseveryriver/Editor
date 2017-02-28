@@ -1,0 +1,40 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <script src="/ckeditor/ckeditor.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script>
+        function autosave() {
+            alert($("#title"))
+            $.ajax({
+                url: "/editor/autosave",
+                data: {
+                    title: document.getElementById("title").value,
+                    writer: "writer",
+                    html: document.getElementById("editor").value,//这个不工作，需要你根据编辑器的api具体写
+                    css: "",
+                    js: ""
+                }
+            })
+        }
+
+        function getAutoSavedArticle() {
+            $.ajax({
+                url: "/editor/getAutoSavedArticle",
+                data: {writer: "writer"},
+                success: function (data) {
+                    document.getElementById("title").value=data.title
+                    document.getElementById("editor").value=data.html//这个不工作，需要你根据编辑器的api具体写
+                }
+            })
+        }
+    </script>
+</head>
+<body>
+标题：<input type="text" id="title"/><br>
+正文：<br>
+<textarea cols="50" id="editor" rows="10" class="ckeditor"></textarea>
+<input type="button" value="autosave" onclick="autosave()"/>
+<input type="button" value="getAutoSavedArticle" onclick="getAutoSavedArticle()"/>
+</body>
