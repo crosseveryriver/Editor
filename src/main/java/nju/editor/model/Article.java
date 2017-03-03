@@ -14,29 +14,23 @@ import java.util.Date;
  */
 @Entity
 public class Article {
+    public static final String VERSION_RELEASE="RELEASE";
+    public static final String VERSION_EDITING ="EDITING";
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer id;
-    private String writer;
+    private Long id;
     private String title;
     private String html;
     private String css;
     private String js;
+    private String version;
     @CreationTimestamp
     private Date createdAt;
     @UpdateTimestamp
     private Date updatedAt;
 
-    public Integer getId() {
+    public Long getId() {
         return id;
-    }
-
-    public String getWriter() {
-        return writer;
-    }
-
-    public void setWriter(String writer) {
-        this.writer = writer;
     }
 
     public String getTitle() {
@@ -47,7 +41,7 @@ public class Article {
         this.title = title;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -75,6 +69,13 @@ public class Article {
         this.js = js;
     }
 
+    public String getVersion() {
+        return version;
+    }
+
+    public void setVersion(String version) {
+        this.version = version;
+    }
 
     public Date getCreatedAt() {
         return createdAt;

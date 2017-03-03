@@ -10,7 +10,6 @@
                 url: "/editor/autosave",
                 data: {
                     title: document.getElementById("title").value,
-                    writer: "writer",
                     html: document.getElementById("editor").value,//这个不工作，需要你根据编辑器的api具体写
                     css: "",
                     js: ""
@@ -21,7 +20,7 @@
         function getAutoSavedArticle() {
             $.ajax({
                 url: "/editor/getAutoSavedArticle",
-                data: {writer: "writer"},
+                data: {},
                 success: function (data) {
                     document.getElementById("title").value=data.title
                     document.getElementById("editor").value=data.html//这个不工作，需要你根据编辑器的api具体写
