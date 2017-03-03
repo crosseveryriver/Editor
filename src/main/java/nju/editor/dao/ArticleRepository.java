@@ -10,6 +10,4 @@ import java.util.List;
  * Created by river on 2/23/17.
  */
 public interface ArticleRepository extends CrudRepository<Article,Long> {
-    List<Article> getArticleByWriter(String writer);
-    List<Article> getArticleByWriterOrderByCreatedAtDesc(String writer);
 }

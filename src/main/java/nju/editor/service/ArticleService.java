@@ -9,5 +9,5 @@ import org.springframework.stereotype.Service;
  */
 public interface ArticleService {
     void saveArticle(Article article);
-    Article getAutoSavedArticle(String user);
+    Article getAutoSavedArticle();
 }

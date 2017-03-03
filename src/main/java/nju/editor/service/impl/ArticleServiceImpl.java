@@ -24,7 +24,7 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     @Override
-    public Article getAutoSavedArticle(String user) {
-        return articleRepository.getArticleByWriterOrderByCreatedAtDesc(user).get(0);
+    public Article getAutoSavedArticle() {
+        return articleRepository.findAll().iterator().next();
     }
 }
