@@ -35,10 +35,17 @@ public class ArticlesController {
     }
 
     /*
+    比如说一个页面有一堆文章，那么就可以认为这些文章是一个类型，那么就可以用这个方法获得这些文章
+     */
+    @RequestMapping("/releaseVersionByType")
+    public List<Article> getReleaseVersionByType(String type){
+        return articleService.getReleaseArticlesByType(type);
+    }
+    /*
     这个方法用于取得某个已经发布的文章，用于展示
     url例如"/articles/12345"这就会返回一个文章的 *内容*
      */
-    @RequestMapping("/{id}")
+    @RequestMapping("/id{id}")
     public String getReleasedArticleContentById(@PathVariable Long id){
         return articleService.getReleasedArticleById(id).getHtml();
     }

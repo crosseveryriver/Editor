@@ -46,4 +46,10 @@ public class ArticleServiceImpl implements ArticleService {
         return articleRepository.getArticleByVersion(Article.VERSION_EDITING);
     }
 
+    @Override
+    public List<Article> getReleaseArticlesByType(String type) {
+        return articleRepository.getArticleByTypeAndVersion(type,Article.VERSION_RELEASE);
+    }
+
+
 }

@@ -24,6 +24,7 @@ public class Article {
     private String css;
     private String js;
     private String version;
+    private String type;
     @CreationTimestamp
     private Date createdAt;
     @UpdateTimestamp
@@ -75,6 +76,14 @@ public class Article {
 
     public void setVersion(String version) {
         this.version = version;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
     public Date getCreatedAt() {

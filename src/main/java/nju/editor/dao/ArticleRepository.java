@@ -11,4 +11,5 @@ import java.util.List;
  */
 public interface ArticleRepository extends CrudRepository<Article,Long> {
     List<Article> getArticleByVersion(String version);
+    List<Article> getArticleByTypeAndVersion(String type,String version);
 }

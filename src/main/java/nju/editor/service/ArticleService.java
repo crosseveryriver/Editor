@@ -15,4 +15,5 @@ public interface ArticleService {
     Article getReleasedArticleById(Long id);
     List<Article> allRelease();
     List<Article> allEditing();
+    List<Article> getReleaseArticlesByType(String type);
 }
