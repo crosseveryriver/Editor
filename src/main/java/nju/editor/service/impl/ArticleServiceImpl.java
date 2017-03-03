@@ -2,11 +2,12 @@ package nju.editor.service.impl;
 
 import nju.editor.dao.ArticleRepository;
 import nju.editor.model.Article;
-import nju.editor.model.User;
 import nju.editor.service.ArticleService;
 import nju.editor.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * Created by wangzehao on 2017/2/23.
@@ -19,12 +20,30 @@ public class ArticleServiceImpl implements ArticleService {
     UserService userService;
 
     @Override
-    public void saveArticle(Article article) {
-        articleRepository.save(article);
+    public Article saveArticle(Article article) {
+        return articleRepository.save(article);
     }
 
     @Override
-    public Article getAutoSavedArticle() {
-        return articleRepository.findAll().iterator().next();
+    public Article releaseArticle(Article article) {
+        saveArticle(article);
+        article.setVersion(Article.VERSION_RELEASE);
+        return articleRepository.save(article);
     }
+
+    @Override
+    public Article getReleasedArticleById(Long id) {
+        return articleRepository.findOne(id);
+    }
+
+    @Override
+    public List<Article> allRelease() {
+        return articleRepository.getArticleByVersion(Article.VERSION_RELEASE);
+    }
+
+    @Override
+    public List<Article> allEditing() {
+        return articleRepository.getArticleByVersion(Article.VERSION_EDITING);
+    }
+
 }
