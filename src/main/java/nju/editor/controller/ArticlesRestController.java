@@ -21,7 +21,7 @@ public class ArticlesRestController {
     /*
     这个方法用于取得所有正在编辑的版本的文章
      */
-    @RequestMapping("/all/editing")
+    @RequestMapping("/allEditing")
     public List<Article> allEditing(){
         return articleService.allEditing();
     }

@@ -21,8 +21,6 @@ public class Article {
     private Long id;
     private String title;
     private String html;
-    private String css;
-    private String js;
     private String version;
     private String type;
     @CreationTimestamp
@@ -52,22 +50,6 @@ public class Article {
 
     public void setHtml(String html) {
         this.html = html;
-    }
-
-    public String getCss() {
-        return css;
-    }
-
-    public void setCss(String css) {
-        this.css = css;
-    }
-
-    public String getJs() {
-        return js;
-    }
-
-    public void setJs(String js) {
-        this.js = js;
     }
 
     public String getVersion() {
