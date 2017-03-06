@@ -9,6 +9,7 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../ckeditor/ckeditor.js"></script>
+    <script src="../js/article.js"></script>
 </head>
 <body>
 
@@ -75,7 +76,7 @@
 <div class="container">
     <h3>添加新动态</h3>
 
-    <form>
+
         <div class="form-group">
             <label for="head"></label>
             <input type="text" class="form-control" id="head" placeholder="标题" th:field="${article.title}"/>
@@ -88,9 +89,9 @@
         </script>
         <br/>
 
-        <button type="submit" class="btn btn-default">发布</button>
+        <button id="save-btn" class="btn btn-default">发布</button>
 
-    </form>
+
 </div>
 
 </body>
