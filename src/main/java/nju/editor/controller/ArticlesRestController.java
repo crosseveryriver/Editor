@@ -65,4 +65,9 @@ public class ArticlesRestController {
     public Article releaseArticle(Article article){
         return articleService.releaseArticle(article);
     }
+
+    @RequestMapping("/delete")
+    public Article deleteArticle(Article article) {
+        return articleService.delete(article);
+    }
 }

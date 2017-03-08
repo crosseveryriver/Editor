@@ -12,8 +12,10 @@ import java.util.List;
 public interface ArticleService {
     Article saveArticle(Article article);
     Article releaseArticle(Article article);
+    Article delete(Article article);
     Article getReleasedArticleById(Long id);
     List<Article> allRelease();
     List<Article> allEditing();
     List<Article> getReleaseArticlesByType(String type);
+
 }
