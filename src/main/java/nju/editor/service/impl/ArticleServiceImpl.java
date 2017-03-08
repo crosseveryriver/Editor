@@ -39,7 +39,6 @@ public class ArticleServiceImpl implements ArticleService {
             article.setId(article.getPreviousReleaseVersion());
             article.setPreviousReleaseVersion(null);
         }
-        saveArticle(article);
         article.setVersion(Article.VERSION_RELEASE);
         return articleRepository.save(article);
     }
