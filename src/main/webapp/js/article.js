@@ -16,7 +16,7 @@ function handleSave(){
             },
             success:function(data) {
                 // 成功以后要做的事
-                alert("safds");
+                alert("保存成功");
             },
             error:function(jqXhr,textStatus,errorThrown){
                 console.log(errorThown);

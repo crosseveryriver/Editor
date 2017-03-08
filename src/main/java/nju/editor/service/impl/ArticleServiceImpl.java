@@ -21,6 +21,7 @@ public class ArticleServiceImpl implements ArticleService {
 
     @Override
     public Article saveArticle(Article article) {
+        article.setVersion(Article.VERSION_EDITING);
         return articleRepository.save(article);
     }
 
