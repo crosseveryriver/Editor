@@ -3,26 +3,27 @@ package nju.editor.model;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
 
 /**
  * Created by river on 2/23/17.
  */
 @Entity
-public class Article {
+public class Article{
     public static final String VERSION_RELEASE="RELEASE";
     public static final String VERSION_EDITING ="EDITING";
+    public static final String VERSION_DELETED ="DELETED";
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String title;
+    @Column(length = Integer.MAX_VALUE)
     private String html;
     private String version;
     private String type;
+    private Long previousReleaseVersion;
     @CreationTimestamp
     private Date createdAt;
     @UpdateTimestamp
@@ -82,5 +83,13 @@ public class Article {
 
     public void setUpdatedAt(Date updatedAt) {
         this.updatedAt = updatedAt;
+    }
+
+    public Long getPreviousReleaseVersion() {
+        return previousReleaseVersion;
+    }
+
+    public void setPreviousReleaseVersion(Long previousReleaseVersion) {
+        this.previousReleaseVersion = previousReleaseVersion;
     }
 }

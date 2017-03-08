@@ -29,14 +29,6 @@ public class ArticlesRestController {
     }
 
     /*
-    这个方法用于取得正在编辑的版本的发布版，用于编辑
-     */
-    @RequestMapping("/releaseVersion")
-    public Article getReleaseVersion(Article article){
-        return articleService.getReleasedArticleById(article.getId());
-    }
-
-    /*
     比如说一个页面有一堆文章，那么就可以认为这些文章是一个类型，那么就可以用这个方法获得这些文章
      */
     @RequestMapping("/releaseVersionByType")
@@ -45,11 +37,11 @@ public class ArticlesRestController {
     }
     /*
     这个方法用于取得某个已经发布的文章，用于展示
-    url例如"/articles/12345"这就会返回一个文章的 *内容*
+    url例如"/articles/id12345"这就会返回一个文章的 *内容*
      */
     @RequestMapping("/id{id}")
-    public String getReleasedArticleContentById(@PathVariable Long id){
-        return articleService.getReleasedArticleById(id).getHtml();
+    public String getArticleContentById(@PathVariable Long id){
+        return articleService.getArticleById(id).getHtml();
     }
 
     /*
@@ -66,5 +58,13 @@ public class ArticlesRestController {
     @RequestMapping("/release")
     public Article releaseArticle(Article article){
         return articleService.releaseArticle(article);
+    }
+
+    /*
+    这个方法用于把一个编辑状态或者发布状态的文章删除
+     */
+    @RequestMapping("/delete")
+    public Article deleteArticle(Article article) {
+        return articleService.delete(article);
     }
 }
