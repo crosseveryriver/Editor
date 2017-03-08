@@ -82,7 +82,7 @@
             <input type="text" class="form-control" id="head" placeholder="标题" th:field="${article.title}"/>
         </div>
         <textarea name="editor1" id="editor1" rows="10" cols="80" th:inline="text">
-            [[${article.title}]]
+            [[${article.html}]]
         </textarea>
         <script>
             CKEDITOR.replace('editor1');

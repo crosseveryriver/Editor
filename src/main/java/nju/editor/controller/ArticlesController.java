@@ -1,5 +1,6 @@
 package nju.editor.controller;
 
+import nju.editor.EditorApplication;
 import nju.editor.model.Article;
 import nju.editor.service.ArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,13 +16,21 @@ import java.util.List;
  */
 @Controller
 public class ArticlesController {
+
+
     @Autowired
     private ArticleService articleService;
 
     @RequestMapping("/article")
     public String article(@RequestParam(value="id", required=false, defaultValue = "null") String id, Model model){
-        Article article=articleService.getReleasedArticleById(Long.parseLong(id));
-        model.addAttribute(article);
+        if(!id.equals("null")){
+            Article article=articleService.getReleasedArticleById(Long.parseLong(id));
+            model.addAttribute(article);
+        }else{
+            Article article = new Article();
+            article.setHtml("");
+            model.addAttribute(article);
+        }
         return "article";
     }
 

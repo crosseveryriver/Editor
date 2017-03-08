@@ -14,6 +14,7 @@ import java.util.List;
  */
 @Service
 public class ArticleServiceImpl implements ArticleService {
+
     @Autowired
     ArticleRepository articleRepository;
     @Autowired
