@@ -24,7 +24,7 @@ public class ArticlesController {
     @RequestMapping("/article")
     public String article(@RequestParam(value="id", required=false, defaultValue = "null") String id, Model model){
         if(!id.equals("null")){
-            Article article=articleService.getReleasedArticleById(Long.parseLong(id));
+            Article article=articleService.getArticleById(Long.parseLong(id));
             model.addAttribute(article);
         }else{
             Article article = new Article();
