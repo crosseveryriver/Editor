@@ -22,6 +22,11 @@ public class ArticleServiceImpl implements ArticleService {
 
     @Override
     public Article saveArticle(Article article) {
+        boolean articleIsReleaseVersion=Article.VERSION_RELEASE.equals(article.getVersion());
+        if(articleIsReleaseVersion){
+            article.setPreviousReleaseVersion(article.getId());
+            article.setId(null);
+        }
         article.setVersion(Article.VERSION_EDITING);
         return articleRepository.save(article);
     }
@@ -59,7 +64,6 @@ public class ArticleServiceImpl implements ArticleService {
     public List<Article> allEditing() {
         List<Article> allEditing = articleRepository.getArticleByVersion(Article.VERSION_EDITING);
         List<Article> allRelease=allRelease();
-        allRelease.forEach(this::makeReleaseVersionEditable);
         ArrayList<Article> allEditingAndReleaseEditingVersion=new ArrayList<>(allEditing.size()+allRelease.size());
         allEditingAndReleaseEditingVersion.addAll(allEditing);
         allEditingAndReleaseEditingVersion.addAll(allRelease);
@@ -69,13 +73,6 @@ public class ArticleServiceImpl implements ArticleService {
     @Override
     public List<Article> getReleaseArticlesByType(String type) {
         return articleRepository.getArticleByTypeAndVersion(type,Article.VERSION_RELEASE);
-    }
-
-    private Article makeReleaseVersionEditable(Article releaseVersion){
-        releaseVersion.setPreviousReleaseVersion(releaseVersion.getId());
-        releaseVersion.setId(null);
-        releaseVersion.setVersion(Article.VERSION_EDITING);
-        return releaseVersion;
     }
 
 }
