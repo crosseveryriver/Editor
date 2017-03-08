@@ -46,7 +46,7 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     @Override
-    public Article getReleasedArticleById(Long id) {
+    public Article getArticleById(Long id) {
         return articleRepository.findOne(id);
     }
 

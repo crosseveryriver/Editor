@@ -20,7 +20,7 @@ public class ArticlesController {
 
     @RequestMapping("/article")
     public String article(@RequestParam(value="id", required=false, defaultValue = "null") String id, Model model){
-        Article article=articleService.getReleasedArticleById(Long.parseLong(id));
+        Article article=articleService.getArticleById(Long.parseLong(id));
         model.addAttribute(article);
         return "article";
     }
