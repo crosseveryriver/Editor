@@ -40,4 +40,9 @@ public class ArticlesController {
         model.addAttribute(articleList);
         return "articles";
     }
+
+    @RequestMapping("/index")
+    public String index(Model model){
+        return "index";
+    }
 }
