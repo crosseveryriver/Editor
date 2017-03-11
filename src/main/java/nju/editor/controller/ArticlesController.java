@@ -41,8 +41,18 @@ public class ArticlesController {
         return "articles";
     }
 
-    @RequestMapping("/index")
-    public String index(Model model){
-        return "index";
+    @RequestMapping("/release/articles")
+    public String getArticleListByType(@RequestParam String type,Model model){
+        List<Article> articleList=articleService.getReleaseArticlesByType(type);
+        model.addAttribute(articleList);
+        return "articleList.template";
     }
+
+    @RequestMapping("/release/article")
+    public String getSingleArticleByType(@RequestParam String type,Model model){
+        List<Article> articleList=articleService.getReleaseArticlesByType(type);
+        Article article=articleList.get(0);
+        return "singleArticle.template";
+    }
+
 }
