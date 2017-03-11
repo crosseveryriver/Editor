@@ -1,22 +1,66 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head profile="http://gmpg.org/xfn/11">
-<title>实习规定</title>
+<title>校友风采</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="imagetoolbar" content="no" />
-<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+<link rel="stylesheet" href="../../webapp/styles/layout.css" type="text/css" />
 <!-- Homepage Specific Elements -->
-<script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>
-<script type="text/javascript" src="scripts/jquery-ui-1.7.2.custom.min.js"></script>
-<script type="text/javascript" src="scripts/jquery.tabs.setup.js"></script>
-<script type="text/javascript" src="scripts/slideDown.js"></script>
+<script type="text/javascript" src="../../webapp/scripts/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="../../webapp/scripts/jquery-ui-1.7.2.custom.min.js"></script>
+<script type="text/javascript" src="../../webapp/scripts/jquery.tabs.setup.js"></script>
+<script type="text/javascript" src="../../webapp/scripts/slideDown.js"></script>
 <!-- End Homepage Specific Elements -->
+    <style>
+@import url("http://fonts.googleapis.com/css?family=Lato");
+
+.gallery {
+  width: 800px;
+  margin: 30px auto;
+  padding: 5px;
+  background: #FFFFFF;
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  width: 390px;
+  transition: .1s transform;
+  transform: translateZ(0);
+  /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.3, 1.3);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+</style>
+
 </head>
 <body id="top">
 <div class="wrapper row1">
   <div id="header" class="clear">
     <div class="fl_left">
-      <h1><a href="index.html" style="width: 250px;height: 80px;display: inline-block;"><img src="images/logo.jpg" style="width: 100%;height: 100%"></a></h1>
+      <h1><a href="index.html" style="width: 250px;height: 80px;display: inline-block;"><img src="../../webapp/images/logo.jpg" style="width: 100%;height: 100%"></a></h1>
 <!--       <p>Free CSS Website Template</p> -->
     </div>
     <div class="fl_right">
@@ -55,7 +99,7 @@
               <li><a href="http://software.nju.edu.cn/index.php?option=com_content&view=article&id=6&Itemid=3" target="_blank"><span>师资介绍</span></a></li>
             </ul>
         </li>
-        <li class="nav_li" class="active">
+        <li class="nav_li">
             <a href="javascript:void(0);">
                 <span>招生就业</span>
                 <span class="down_img"></span>
@@ -78,7 +122,7 @@
             </ul>
         </li>
         <li><a href="xiaoyuanwenhua.html">校园文化</a></li>
-        <li><a href="xiaoyoufengcai.html">校友风采</a></li>
+        <li class="active"><a href="xiaoyoufengcai.html">校友风采</a></li>
         <div style="clear: both"></div>
       </ul>
     </div>
@@ -90,43 +134,53 @@
   <div class="rnd">
     <div id="container" class="clear" >
       <!-- ####################################################################################################### -->
-      <div id="column" style="width:750px">
-        <div class="subnav" style="width:700px" >
-          <h2>相关规定  </h2>
-
-            <p>
-              <a href="images/5/shijianguiding.doc" target="_blank">南京大学软件学院关于学生工程实践管理暂行规定</a></p>
-            <p>
-              <a href="images/5/shijianshenqing.doc" target="_blank">南京大学软件学院学生工程实践申请表</a></p>
-            <p>
-              <a href="images/5/waichuxieyi.doc" target="_blank">南京大学软件学院学生外出实践协议书</a></p>
-            <p>
-              <a href="images/5/shijianxieyi.doc" target="_blank">南京大学软件学院学生工程实践协议书</a></p>
-            <p>
-              <a href="images/5/shixibaogao.docx" target="_blank">南京大学软件学院学生实习（阶段）总结报告</a></p>
-            <p>
-              <a href="images/5/danweipingjia.docx" target="_blank">南京大学软件学院学生实习单位评价表</a></p>
-            <p>
-              <a href="images/5/gctxieyi.pdf" target="_blank">南京大学软件学院关于在企业建立软件工程硕士实践基地的协议书</a></p>
-            <p>
-              <a href="images/5/zhishichanquan.pdf" target="_blank">南京大学软件学院学员工程实践知识产权及保密协议书</a></p>
- 
-            <p>
-              <span>实习流程</span>：</p>
-            <p>
-               <img alt="tupian" height="958" src="images/5/liucheng.jpg" width="569" /></p>
+      <div id="column" style="width:910px;">
+        <div class="subnav" style="width:850px;" >
+          <h2>校友风采</h2>
+          <div class="gallery cf">
+            <div>
+              <img src="images/1/2016.png" />
+            </div>
+            <div>
+              <img src="images/1/2015.png" />
+            </div>
+            <div>
+              <img src="images/1/2014.png" />
+            </div>
+            <div>
+              <img src="images/1/2013.png" />
+            </div>
+            <div>
+              <img src="images/1/2012.png" />
+            </div>
+            <div>
+              <img src="images/1/2011.png" />
+            </div>
+            <div>
+              <img src="images/1/2010.png" />
+            </div>
+            <div>
+              <img src="images/1/2009.png" />
+            </div>
+            <div>
+              <img src="images/1/2008.png" />
+            </div>
+            <div>
+              <img src="images/1/2007.png" />
+            </div>
+            <div>
+              <img src="images/1/2006.png" />
+            </div>
+            <div>
+              <img src="images/1/2005.png" />
+            </div>
+            <div>
+              <img src="images/1/2004.png" />
+            </div>
+          </div>
         </div>
       </div>
-
       <!-- ####################################################################################################### -->
-      <!--2026-->
-      <div id="cebianlan">
-            <span><a href="yanjiusheng.html">研究生招生</a></span>
-            <span><a href="shixijidi.html">实习基地</a></span>
-            <span class="current_span"><a href="shixiguiding.html" style="color:#6A005F">实习规定</a></span>
-            <span><a href="jiuyeqingkuang.html">就业情况</a></span>
-      </div>
-      <!--2026-->
     </div>
   </div>
 </div>
@@ -140,21 +194,21 @@
           <tbody>
             <tr>
               <td align="center" width="60">
-                <a href="http://www.nju.edu.cn/" target="_blank"><img align="middle" alt="" border="0" height="22" src="images/njdx1.jpg" width="66" /></a></td>
+                <a href="http://www.nju.edu.cn/" target="_blank"><img align="middle" alt="" border="0" height="22" src="../../webapp/images/njdx1.jpg" width="66" /></a></td>
               <td align="center" width="80">
-                <a href="http://labse.nju.edu.cn/" target="_blank"><img align="middle" alt="" border="0" height="20" src="images/rjgcsyjxzx3.jpg" width="112" /></a></td>
+                <a href="http://labse.nju.edu.cn/" target="_blank"><img align="middle" alt="" border="0" height="20" src="../../webapp/images/rjgcsyjxzx3.jpg" width="112" /></a></td>
               <td align="center" width="106">
-                <a href="http://218.94.159.105/" target="_blank"><img align="middle" alt="" height="20" src="images/logo10.png" width="104" /></a></td>
+                <a href="http://218.94.159.105/" target="_blank"><img align="middle" alt="" height="20" src="../../webapp/images/logo10.png" width="104" /></a></td>
               <td align="center" width="68">
-                <a href="http://mail.smail.nju.edu.cn/" target="_blank"><img align="middle" alt="" border="0" height="20" src="images/xsyx2.jpg" width="66" /></a></td>
+                <a href="http://mail.smail.nju.edu.cn/" target="_blank"><img align="middle" alt="" border="0" height="20" src="../../webapp/images/xsyx2.jpg" width="66" /></a></td>
               <td align="center" width="68">
-                <a href="http://mail.nju.edu.cn/" target="_blank"><img align="middle" alt="" border="0" height="20" src="images/jsyx2.jpg" width="66" /></a></td>
+                <a href="http://mail.nju.edu.cn/" target="_blank"><img align="middle" alt="" border="0" height="20" src="../../webapp/images/jsyx2.jpg" width="66" /></a></td>
               <td align="center" width="96">
-                <a href="http://jw.nju.edu.cn/root/index.html" target="_blank"><img align="middle" alt="" height="20" src="images/link-jiaowu.jpg" width="94" /></a></td>
+                <a href="http://jw.nju.edu.cn/root/index.html" target="_blank"><img align="middle" alt="" height="20" src="../../webapp/images/link-jiaowu.jpg" width="94" /></a></td>
               <td align="center" width="106">
-                <a href="http://grawww.nju.edu.cn/" target="_blank"><img align="middle" alt="" height="20" src="images/link-yjsy.jpg" width="104" /></a></td>
+                <a href="http://grawww.nju.edu.cn/" target="_blank"><img align="middle" alt="" height="20" src="../../webapp/images/link-yjsy.jpg" width="104" /></a></td>
               <td align="center" width="102">
-                <a href="http://job.nju.edu.cn/" target="_blank"><img align="middle" alt="" height="20" src="images/jiuyezhidao.GIF" width="100" /></a></td>
+                <a href="http://job.nju.edu.cn/" target="_blank"><img align="middle" alt="" height="20" src="../../webapp/images/jiuyezhidao.GIF" width="100" /></a></td>
             </tr>
           </tbody>
         </table>
