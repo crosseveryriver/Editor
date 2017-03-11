@@ -10,6 +10,6 @@ import java.util.List;
  * Created by river on 2/23/17.
  */
 public interface ArticleRepository extends CrudRepository<Article,Long> {
-    List<Article> getArticleByVersion(String version);
+    List<Article> getArticleByVersionOrderByUpdatedAtDesc(String version);
     List<Article> getArticleByTypeAndVersionOrderByUpdatedAtDesc(String type,String version);
 }

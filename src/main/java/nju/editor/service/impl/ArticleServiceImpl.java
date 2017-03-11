@@ -57,12 +57,12 @@ public class ArticleServiceImpl implements ArticleService {
 
     @Override
     public List<Article> allRelease() {
-        return articleRepository.getArticleByVersion(Article.VERSION_RELEASE);
+        return articleRepository.getArticleByVersionOrderByUpdatedAtDesc(Article.VERSION_RELEASE);
     }
 
     @Override
     public List<Article> allEditing() {
-        List<Article> allEditing = articleRepository.getArticleByVersion(Article.VERSION_EDITING);
+        List<Article> allEditing = articleRepository.getArticleByVersionOrderByUpdatedAtDesc(Article.VERSION_EDITING);
         List<Article> allRelease=allRelease();
         ArrayList<Article> allEditingAndReleaseEditingVersion=new ArrayList<>(allEditing.size()+allRelease.size());
         allEditingAndReleaseEditingVersion.addAll(allEditing);
