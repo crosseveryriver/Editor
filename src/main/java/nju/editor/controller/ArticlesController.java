@@ -52,6 +52,7 @@ public class ArticlesController {
     public String getSingleArticleByType(@RequestParam String type,Model model){
         List<Article> articleList=articleService.getReleaseArticlesByType(type);
         Article article=articleList.get(0);
+        model.addAttribute(article);
         return "singleArticle.template";
     }
 
