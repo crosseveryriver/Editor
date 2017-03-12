@@ -22,6 +22,8 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
 function handleSave() {
     $("#save-btn").on("click", function () {
+        var select = document.getElementById('document-type')
+        var type = select.options[select.selectedIndex].value;
         var id = getUrlParameter('id');
         if (id == undefined)
             $.ajax({
@@ -29,7 +31,8 @@ function handleSave() {
                 type: "post",
                 data: {
                     title: $("#head").val(),
-                    html: CKEDITOR.instances.editor1.getData()
+                    html: CKEDITOR.instances.editor1.getData(),
+                    type:type
                 },
                 success: function (data) {
                     // 成功以后要做的事
@@ -47,7 +50,8 @@ function handleSave() {
                 data: {
                     id: id,
                     title: $("#head").val(),
-                    html: CKEDITOR.instances.editor1.getData()
+                    html: CKEDITOR.instances.editor1.getData(),
+                    type:type
                 },
                 success: function (data) {
                     // 成功以后要做的事
