@@ -76,20 +76,38 @@
 <div class="container">
     <h3>添加新动态</h3>
 
+    <form class="form-group">
+        <div class="form-group">
+            <label for="document-type">文章类型</label>
+            <select class="form-control" id="document-type" th:field="${article.type}">
+                <option value="学术动态">学术动态</option>
+                <option value="公告信息">公告信息</option>
+                <option value="研究生招生">研究生招生</option>
+                <option value="实习基地">实习基地</option>
+                <option value="实习规定">实习规定</option>
+                <option value="就业情况">就业情况</option>
+                <option value="师资介绍">师资介绍</option>
+                <option value="奖助学金">奖助学金</option>
+                <option value="课程介绍">课程介绍</option>
+                <option value="培养方案">培养方案</option>
+            </select>
+        </div>
 
         <div class="form-group">
-            <label for="head"></label>
+            <label for="head">文章标题</label>
             <input type="text" class="form-control" id="head" placeholder="标题" th:field="${article.title}"/>
         </div>
-        <textarea name="editor1" id="editor1" rows="10" cols="80" th:inline="text">
+    </form>
+    <br/>
+    <textarea name="editor1" id="editor1" rows="10" cols="80" th:inline="text">
             [[${article.html}]]
         </textarea>
-        <script>
-            CKEDITOR.replace('editor1');
-        </script>
-        <br/>
+    <script>
+        CKEDITOR.replace('editor1');
+    </script>
+    <br/>
 
-        <button id="save-btn" class="btn btn-default">发布</button>
+    <button id="save-btn" class="btn btn-default">发布</button>
 
 
 </div>
