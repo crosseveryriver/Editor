@@ -33,9 +33,9 @@ public class WebsiteController {
     public String page6(Model model){
         return "D";
     }
-    @RequestMapping("/gonggaoxiangqiong")
+    @RequestMapping("/gonggaoxiangqing")
     public String page7(Model model){
-        return "gonggaoxiangqiong";
+        return "gonggaoxiangqing";
     }
     @RequestMapping("/gonggaoxinxi")
     public String page8(Model model){
@@ -73,9 +73,9 @@ public class WebsiteController {
     public String page18(Model model){
         return "xiaoyoufengcai";
     }
-    @RequestMapping("/xueyuanwenhua")
+    @RequestMapping("/xiaoyuanwenhua")
     public String page26(Model model){
-        return "xueyuanwenhua";
+        return "xiaoyuanwenhua";
     }
     @RequestMapping("/xueshudongtai")
     public String page27(Model model){
