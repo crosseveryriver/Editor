@@ -37,6 +37,7 @@ function handleSave() {
                 success: function (data) {
                     // 成功以后要做的事
                     alert("保存成功");
+                    document.location.reload();
                 },
                 error: function (jqXhr, textStatus, errorThrown) {
                     console.log(errorThown);
@@ -56,6 +57,7 @@ function handleSave() {
                 success: function (data) {
                     // 成功以后要做的事
                     alert("保存成功");
+                    document.location.reload();
                 },
                 error: function (jqXhr, textStatus, errorThrown) {
                     console.log(errorThown);
