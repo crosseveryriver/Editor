@@ -122,7 +122,7 @@ public class WebsiteController {
     public String xiaoyuanwenhua(Model model) {
         Article article = articleService.getReleaseArticlesByType("校园文化").get(0);
         model.addAttribute(article);
-        return "xueyuanwenhua";
+        return "xiaoyuanwenhua";
     }
 
     @RequestMapping("/xiaoyoufengcai")
