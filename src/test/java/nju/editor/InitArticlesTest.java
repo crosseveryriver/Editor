@@ -188,409 +188,409 @@ public class InitArticlesTest {
                 "\n" +
                 "          <p style=\"font-size:15px\">八、毕业与学位授予</p>\n" +
                 "          <p class=\"p1\">通过课程考试取得规定学分，成绩合格，并通过软件工程成果评审和学位论文答辩的研究生，由南京大学学位评定委员会审核批准后，授予软件工程领域工程硕士专业学位。其中，全日制学历研究生由南京大学发给研究生毕业证书。</p>\n");
-        save("课程介绍","课程介绍",
+        save("课程介绍", "课程介绍",
                 "            <p>\n" +
-                "              <img alt=\"tupian\" src=\"images/5/123_01.png\" width=\"700\" />      \n" +
-                "              <img alt=\"tupian\" src=\"images/5/123_02.png\" width=\"700\" />        \n" +
-                "              <a href=\"B.html\"><img alt=\"tupian\" src=\"images/5/123_03.png\" width=\"700\" /></a>\n" +
-                "              <a href=\"C.html\"><img alt=\"tupian\" src=\"images/5/123_04.png\" width=\"700\" /></a>\n" +
-                "              <a href=\"D.html\"><img alt=\"tupian\" src=\"images/5/123_05.png\" width=\"700\" /></a>\n" +
-                "            </p>\n" +
-                "            <p><a href=\"http://218.94.159.99/\" target=\"Dlank\">当前课程</a></p>\n");
-        save("奖助学金","奖助学金",
+                        "              <img alt=\"tupian\" src=\"images/5/123_01.png\" width=\"700\" />      \n" +
+                        "              <img alt=\"tupian\" src=\"images/5/123_02.png\" width=\"700\" />        \n" +
+                        "              <a href=\"B.html\"><img alt=\"tupian\" src=\"images/5/123_03.png\" width=\"700\" /></a>\n" +
+                        "              <a href=\"C.html\"><img alt=\"tupian\" src=\"images/5/123_04.png\" width=\"700\" /></a>\n" +
+                        "              <a href=\"D.html\"><img alt=\"tupian\" src=\"images/5/123_05.png\" width=\"700\" /></a>\n" +
+                        "            </p>\n" +
+                        "            <p><a href=\"http://218.94.159.99/\" target=\"Dlank\">当前课程</a></p>\n");
+        save("奖助学金", "奖助学金",
                 "          <p style=\"line-height:1.6em\">&nbsp; &nbsp;&nbsp; &nbsp; 我校高度重视家庭经济困难学生资助工作，不断完善资助体系，全力拓展助困渠道，继续加大帮扶力度，切实提升育人效果，致力于让所有家庭经济困难学生在四年大学时光中能够安心学习、快乐生活和全面成长。我校始终坚持多管齐下的帮扶思路，进一步完善“奖、贷、助、补、减、缓”六位一体的助学体系，做好奖助学金、助学贷款、勤工助学、困难补助、学费减免、绿色通道等各项工作，不断加大对家庭经济困难学生的资助力度。同时，在解决家庭经济困难学生的经济、生活困难的基础上，更加关注学生的心理和精神困惑，坚持“助困与扶志”、“助困与自强”、“助困与育人”相结合的方针，通过组织爱心社团活动、开设“雨露课堂”、宣传受助学生先进典型、设立家庭经济困难学生国际交流奖学金等方式，从精神层面培养和激发家庭经济困难学生艰苦奋斗、自强不息、励志成才的人格品质，提升综合能力素质。<br /></p>\n" +
+                        "          <ul>\n" +
+                        "            <li><a href=\"http://grawww.nju.edu.cn/931/list.htm\" target=\"_blank\">研究生评奖评优</a></li>\n" +
+                        "            <li><a href=\"http://grawww.nju.edu.cn/932/list.htm\" target=\"_blank\">研究生三助管理</a></li>\n" +
+                        "            <li><a href=\"http://grawww.nju.edu.cn/933/list.htm\" target=\"_blank\">研究生助学贷款</a></li>\n" +
+                        "          </ul>\n");
+        save("研究生培养", "研究生招生",
                 "          <ul>\n" +
-                "            <li><a href=\"http://grawww.nju.edu.cn/931/list.htm\" target=\"_blank\">研究生评奖评优</a></li>\n" +
-                "            <li><a href=\"http://grawww.nju.edu.cn/932/list.htm\" target=\"_blank\">研究生三助管理</a></li>\n" +
-                "            <li><a href=\"http://grawww.nju.edu.cn/933/list.htm\" target=\"_blank\">研究生助学贷款</a></li>\n" +
-                "          </ul>\n");
-        save("研究生培养","研究生招生",
-                "          <ul>\n" +
-                "            <li><a href=\"#\">2016年研究生推免通知</a></li>\n" +
-                "            <li><a href=\"#\">XXXXXXXXXXXXXXXXXXXX</a></li>\n" +
-                "            <li><a href=\"#\">XXXXXXXXXXXXXXXXXXXX</a></li>\n" +
-                "            <li><a href=\"#\">XXXXXXXXXXXXXXXXXXXX</a></li>\n" +
-                "          </ul>\n");
-        save("实习基地","实习基地",
+                        "            <li><a href=\"#\">2016年研究生推免通知</a></li>\n" +
+                        "            <li><a href=\"#\">XXXXXXXXXXXXXXXXXXXX</a></li>\n" +
+                        "            <li><a href=\"#\">XXXXXXXXXXXXXXXXXXXX</a></li>\n" +
+                        "            <li><a href=\"#\">XXXXXXXXXXXXXXXXXXXX</a></li>\n" +
+                        "          </ul>\n");
+        save("实习基地", "实习基地",
                 "          <table style=\"margin-left:70px;width:550px\">\n" +
-                "            <tbody>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    国家级南京软件园</p>\n" +
-                "                </td>\n" +
-                "                <td>\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.njswp.com/\" target=\"_blank\"><img alt=\"1\" height=\"52\" src=\"images/5/20071109120715172.jpg\" width=\"170\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                   <p>\n" +
-                "                     国家级江苏软件园</p>\n" +
-                "                </td>\n" +
-                "                <td>\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.jssp.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"52\" hspace=\"0\" src=\"images/5/sjjd_clip_image003.jpg\" width=\"204\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    英特尔（中国）有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td>\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.intel.com.cn/\" target=\"_blank\"><img alt=\"1\" height=\"51\" src=\"images/5/intel.jpg\" width=\"129\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    欧特克设计软件（上海）有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td>\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.autodesk.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"27\" hspace=\"0\" src=\"images/5/sjjd_clip_image005.gif\" width=\"153\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    西门子软件系统工程（南京）有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td>\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.siemens.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"31\" hspace=\"0\" src=\"images/5/sjjd_clip_image006_0000.gif\" width=\"88\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    摩托罗拉南京软件中心</p>\n" +
-                "                </td>\n" +
-                "                <td style=\"text-align: left;\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.motorola.com/\" target=\"_blank\"><img align=\"middle\" alt=\"1\" height=\"47\" src=\"images/5/motorola.jpg\" width=\"85\" /></a></p>\n" +
-                "                  </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    花旗软件技术服务（上海）有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td>\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.citi.com/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"57\" hspace=\"0\" src=\"images/5/sjjd_clip_image009_0000.jpg\" width=\"220\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td  style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    瑞晟半导体股份有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td>\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.realsil.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"50\" hspace=\"0\" src=\"images/5/sjjd_clip_image010_0000.jpg\" width=\"150\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td  style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    北京用友软件股份有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td>\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.ufsoft.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"37\" hspace=\"0\" src=\"images/5/sjjd_clip_image011_0000.gif\" width=\"190\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td  style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    北京汉王科技有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td>\n" +
-                "                  <p align=\"cleft\">\n" +
-                "                    <a href=\"http://www.hw99.com/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"65\" hspace=\"0\" src=\"images/5/sjjd_clip_image012_0000.jpg\" width=\"241\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    中国计算机软件与技术服务总公司</p>\n" +
-                "                </td>\n" +
-                "                <td>\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.css.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"48\" hspace=\"0\" src=\"images/5/sjjd_clip_image013.gif\" width=\"247\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    中兴通讯股份有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td>\n" +
-                "                  <p align=\"left\">\n" +
-                "                   <a href=\"http://www.zte.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"55\" hspace=\"0\" src=\"images/5/sjjd_clip_image014_0000.gif\" width=\"110\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    国电南瑞科技股份有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td>\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.nari-china.com/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"40\" hspace=\"0\" src=\"images/5/sjjd_clip_image015.gif\" width=\"248\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td  style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    安氏互联网安全系统（中国）有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td>\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.is-one.net/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"76\" hspace=\"0\" src=\"images/5/sjjd_clip_image016.gif\" width=\"167\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    江苏南大苏富特软件股份有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td>\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.njusoft.com/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"59\" hspace=\"0\" src=\"images/5/sjjd_clip_image018_0000.jpg\" width=\"234\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td  style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    江苏东大金智软件股份有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td>\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <<a href=\"http://www.wiscom.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"73\" hspace=\"0\" src=\"images/5/sjjd_clip_image019_0000.gif\" width=\"217\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td  style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    江苏自动化研究所</p>\n" +
-                "                </td>\n" +
-                "                <td>\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.716.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"62\" hspace=\"0\" src=\"images/5/sjjd_clip_image021_0000.jpg\" width=\"206\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    移软科技(南京)有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <span lang=\"EN-US\"><a href=\"http://www.mobilesoft.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"58\" hspace=\"0\" src=\"images/5/sjjd_clip_image022_0000.gif\" width=\"223\" /></a></span></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    南京国瑞科技有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.gori.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"27\" hspace=\"0\" src=\"images/5/sjjd_clip_image022_0001.gif\" width=\"180\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    南京力导电子系统研究所</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.njlead.com/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"69\" hspace=\"0\" src=\"images/5/sjjd_clip_image025_0000.jpg\" width=\"248\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td  style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    苏源集团江苏信息技术有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.suyuan.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"75\" hspace=\"0\" src=\"images/5/sjjd_clip_image026_0000.jpg\" width=\"188\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td  style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    擎天咨询科技有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.skynj.com/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"51\" hspace=\"0\" src=\"images/5/sjjd_clip_image039.gif\" width=\"156\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    三星电子(中国)研发中心</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.samsung.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"44\" hspace=\"0\" src=\"images/5/sjjd_clip_image040.gif\" width=\"160\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td  style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    华瑞电气</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.huarui-china.com/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"74\" hspace=\"0\" src=\"images/5/sjjd_clip_image041.jpg\" width=\"204\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    深圳市紫金支点技术股份有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.zjft.com/\" target=\"_blank\"><img alt=\"2\" border=\"0\" height=\"71\" hspace=\"0\" src=\"images/5/20071109112639104.jpg\" width=\"189\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    扬智电子（上海）有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.ali.com.tw/t_chinese/about/index.html\" target=\"_blank\"><img align=\"absMiddle\" alt=\"1\" height=\"70\" src=\"images/5/yangzhilogo.jpg\" width=\"193\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    趋势科技中国有限公司南京分公司</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://tw.trendmicro.com/tw/home/\" target=\"_blank\"><img align=\"middle\" alt=\"1\" height=\"61\" src=\"images/5/qushi.JPG\" width=\"218\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    南京百敖软件有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.byosoft.com.cn/\" target=\"_blank\"><img alt=\"1\" height=\"85\" src=\"images/5/baiao.JPG\" width=\"194\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    无锡矽太恒科电子有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.ihanker.com/\" target=\"_blank\"><img alt=\"1\" height=\"65\" src=\"images/5/xitai.JPG\" width=\"192\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    南京爱立信熊猫通讯有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.jswzxx.net/web/enc.htm\" target=\"_blank\"><img alt=\"1\" height=\"59\" src=\"images/5/xiongmaoaolixin.JPG\" width=\"239\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    SAP研究总部&middot;中国研究中心</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.bestsapchina.com/ResourceMain.aspx?utm_source=CNY-se&amp;utm_medium=ggl&amp;utm_term=ggp&amp;utm_content=D0031&amp;utm_campaign=CNY&amp;srcid=1_3-10-21_3-10-21_SEMLRWG1&amp;campaigncode=CRM-AP09-DGH-CNSEMLRWG1&amp;source=msgsdkwcn01&amp;kw=2000029&amp;KW_ID=p167075849&amp;typeid=3&amp;membersource=whitepaper\" target=\"_blank\"><img alt=\"1\" height=\"63\" src=\"images/5/sap.JPG\" width=\"203\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    IBM</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.ibm.com/cn/zh/\" target=\"_blank\"><img alt=\"1\" height=\"51\" src=\"images/5/ibm.JPG\" width=\"133\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    腾讯科技有限公司</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://software.nju.edu.cn/www.qq.com\" target=\"_blank\"><img alt=\"1\" height=\"45\" src=\"images/5/tengxun.JPG\" width=\"222\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "              <tr>\n" +
-                "                <td style=\"text-align: left;\" width=\"276\">\n" +
-                "                  <p>\n" +
-                "                    EBAY</p>\n" +
-                "                </td>\n" +
-                "                <td width=\"258\">\n" +
-                "                  <p align=\"left\">\n" +
-                "                    <a href=\"http://www.ebay.cn/online/\" target=\"_blank\"><img alt=\"1\" height=\"69\" src=\"images/5/yibei.JPG\" width=\"240\" /></a></p>\n" +
-                "                </td>\n" +
-                "              </tr>\n" +
-                "            </tbody>\n" +
-                "          </table>\n");
-        save("实习规定","实习规定",
+                        "            <tbody>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    国家级南京软件园</p>\n" +
+                        "                </td>\n" +
+                        "                <td>\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.njswp.com/\" target=\"_blank\"><img alt=\"1\" height=\"52\" src=\"images/5/20071109120715172.jpg\" width=\"170\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                   <p>\n" +
+                        "                     国家级江苏软件园</p>\n" +
+                        "                </td>\n" +
+                        "                <td>\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.jssp.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"52\" hspace=\"0\" src=\"images/5/sjjd_clip_image003.jpg\" width=\"204\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    英特尔（中国）有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td>\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.intel.com.cn/\" target=\"_blank\"><img alt=\"1\" height=\"51\" src=\"images/5/intel.jpg\" width=\"129\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    欧特克设计软件（上海）有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td>\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.autodesk.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"27\" hspace=\"0\" src=\"images/5/sjjd_clip_image005.gif\" width=\"153\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    西门子软件系统工程（南京）有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td>\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.siemens.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"31\" hspace=\"0\" src=\"images/5/sjjd_clip_image006_0000.gif\" width=\"88\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    摩托罗拉南京软件中心</p>\n" +
+                        "                </td>\n" +
+                        "                <td style=\"text-align: left;\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.motorola.com/\" target=\"_blank\"><img align=\"middle\" alt=\"1\" height=\"47\" src=\"images/5/motorola.jpg\" width=\"85\" /></a></p>\n" +
+                        "                  </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    花旗软件技术服务（上海）有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td>\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.citi.com/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"57\" hspace=\"0\" src=\"images/5/sjjd_clip_image009_0000.jpg\" width=\"220\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td  style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    瑞晟半导体股份有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td>\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.realsil.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"50\" hspace=\"0\" src=\"images/5/sjjd_clip_image010_0000.jpg\" width=\"150\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td  style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    北京用友软件股份有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td>\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.ufsoft.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"37\" hspace=\"0\" src=\"images/5/sjjd_clip_image011_0000.gif\" width=\"190\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td  style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    北京汉王科技有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td>\n" +
+                        "                  <p align=\"cleft\">\n" +
+                        "                    <a href=\"http://www.hw99.com/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"65\" hspace=\"0\" src=\"images/5/sjjd_clip_image012_0000.jpg\" width=\"241\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    中国计算机软件与技术服务总公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td>\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.css.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"48\" hspace=\"0\" src=\"images/5/sjjd_clip_image013.gif\" width=\"247\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    中兴通讯股份有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td>\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                   <a href=\"http://www.zte.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"55\" hspace=\"0\" src=\"images/5/sjjd_clip_image014_0000.gif\" width=\"110\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    国电南瑞科技股份有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td>\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.nari-china.com/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"40\" hspace=\"0\" src=\"images/5/sjjd_clip_image015.gif\" width=\"248\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td  style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    安氏互联网安全系统（中国）有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td>\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.is-one.net/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"76\" hspace=\"0\" src=\"images/5/sjjd_clip_image016.gif\" width=\"167\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    江苏南大苏富特软件股份有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td>\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.njusoft.com/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"59\" hspace=\"0\" src=\"images/5/sjjd_clip_image018_0000.jpg\" width=\"234\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td  style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    江苏东大金智软件股份有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td>\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <<a href=\"http://www.wiscom.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"73\" hspace=\"0\" src=\"images/5/sjjd_clip_image019_0000.gif\" width=\"217\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td  style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    江苏自动化研究所</p>\n" +
+                        "                </td>\n" +
+                        "                <td>\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.716.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"62\" hspace=\"0\" src=\"images/5/sjjd_clip_image021_0000.jpg\" width=\"206\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    移软科技(南京)有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <span lang=\"EN-US\"><a href=\"http://www.mobilesoft.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"58\" hspace=\"0\" src=\"images/5/sjjd_clip_image022_0000.gif\" width=\"223\" /></a></span></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    南京国瑞科技有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.gori.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"27\" hspace=\"0\" src=\"images/5/sjjd_clip_image022_0001.gif\" width=\"180\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    南京力导电子系统研究所</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.njlead.com/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"69\" hspace=\"0\" src=\"images/5/sjjd_clip_image025_0000.jpg\" width=\"248\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td  style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    苏源集团江苏信息技术有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.suyuan.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"75\" hspace=\"0\" src=\"images/5/sjjd_clip_image026_0000.jpg\" width=\"188\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td  style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    擎天咨询科技有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.skynj.com/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"51\" hspace=\"0\" src=\"images/5/sjjd_clip_image039.gif\" width=\"156\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    三星电子(中国)研发中心</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.samsung.com.cn/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"44\" hspace=\"0\" src=\"images/5/sjjd_clip_image040.gif\" width=\"160\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td  style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    华瑞电气</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.huarui-china.com/\" target=\"_blank\"><img alt=\"1\" border=\"0\" height=\"74\" hspace=\"0\" src=\"images/5/sjjd_clip_image041.jpg\" width=\"204\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    深圳市紫金支点技术股份有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.zjft.com/\" target=\"_blank\"><img alt=\"2\" border=\"0\" height=\"71\" hspace=\"0\" src=\"images/5/20071109112639104.jpg\" width=\"189\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    扬智电子（上海）有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.ali.com.tw/t_chinese/about/index.html\" target=\"_blank\"><img align=\"absMiddle\" alt=\"1\" height=\"70\" src=\"images/5/yangzhilogo.jpg\" width=\"193\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    趋势科技中国有限公司南京分公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://tw.trendmicro.com/tw/home/\" target=\"_blank\"><img align=\"middle\" alt=\"1\" height=\"61\" src=\"images/5/qushi.JPG\" width=\"218\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    南京百敖软件有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.byosoft.com.cn/\" target=\"_blank\"><img alt=\"1\" height=\"85\" src=\"images/5/baiao.JPG\" width=\"194\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    无锡矽太恒科电子有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.ihanker.com/\" target=\"_blank\"><img alt=\"1\" height=\"65\" src=\"images/5/xitai.JPG\" width=\"192\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    南京爱立信熊猫通讯有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.jswzxx.net/web/enc.htm\" target=\"_blank\"><img alt=\"1\" height=\"59\" src=\"images/5/xiongmaoaolixin.JPG\" width=\"239\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    SAP研究总部&middot;中国研究中心</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.bestsapchina.com/ResourceMain.aspx?utm_source=CNY-se&amp;utm_medium=ggl&amp;utm_term=ggp&amp;utm_content=D0031&amp;utm_campaign=CNY&amp;srcid=1_3-10-21_3-10-21_SEMLRWG1&amp;campaigncode=CRM-AP09-DGH-CNSEMLRWG1&amp;source=msgsdkwcn01&amp;kw=2000029&amp;KW_ID=p167075849&amp;typeid=3&amp;membersource=whitepaper\" target=\"_blank\"><img alt=\"1\" height=\"63\" src=\"images/5/sap.JPG\" width=\"203\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    IBM</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.ibm.com/cn/zh/\" target=\"_blank\"><img alt=\"1\" height=\"51\" src=\"images/5/ibm.JPG\" width=\"133\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    腾讯科技有限公司</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://software.nju.edu.cn/www.qq.com\" target=\"_blank\"><img alt=\"1\" height=\"45\" src=\"images/5/tengxun.JPG\" width=\"222\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "              <tr>\n" +
+                        "                <td style=\"text-align: left;\" width=\"276\">\n" +
+                        "                  <p>\n" +
+                        "                    EBAY</p>\n" +
+                        "                </td>\n" +
+                        "                <td width=\"258\">\n" +
+                        "                  <p align=\"left\">\n" +
+                        "                    <a href=\"http://www.ebay.cn/online/\" target=\"_blank\"><img alt=\"1\" height=\"69\" src=\"images/5/yibei.JPG\" width=\"240\" /></a></p>\n" +
+                        "                </td>\n" +
+                        "              </tr>\n" +
+                        "            </tbody>\n" +
+                        "          </table>\n");
+        save("实习规定", "实习规定",
                 "            <p>\n" +
-                "              <a href=\"images/5/shijianguiding.doc\" target=\"_blank\">南京大学软件学院关于学生工程实践管理暂行规定</a></p>\n" +
-                "            <p>\n" +
-                "              <a href=\"images/5/shijianshenqing.doc\" target=\"_blank\">南京大学软件学院学生工程实践申请表</a></p>\n" +
-                "            <p>\n" +
-                "              <a href=\"images/5/waichuxieyi.doc\" target=\"_blank\">南京大学软件学院学生外出实践协议书</a></p>\n" +
-                "            <p>\n" +
-                "              <a href=\"images/5/shijianxieyi.doc\" target=\"_blank\">南京大学软件学院学生工程实践协议书</a></p>\n" +
-                "            <p>\n" +
-                "              <a href=\"images/5/shixibaogao.docx\" target=\"_blank\">南京大学软件学院学生实习（阶段）总结报告</a></p>\n" +
-                "            <p>\n" +
-                "              <a href=\"images/5/danweipingjia.docx\" target=\"_blank\">南京大学软件学院学生实习单位评价表</a></p>\n" +
-                "            <p>\n" +
-                "              <a href=\"images/5/gctxieyi.pdf\" target=\"_blank\">南京大学软件学院关于在企业建立软件工程硕士实践基地的协议书</a></p>\n" +
-                "            <p>\n" +
-                "              <a href=\"images/5/zhishichanquan.pdf\" target=\"_blank\">南京大学软件学院学员工程实践知识产权及保密协议书</a></p>\n" +
-                " \n" +
-                "            <p>\n" +
-                "              <span>实习流程</span>：</p>\n" +
-                "            <p>\n" +
-                "               <img alt=\"tupian\" height=\"958\" src=\"images/5/liucheng.jpg\" width=\"569\" /></p>\n");
-        save("南京大学软件学院2015届就业统计","就业情况","<img src=\"images/5/20151.png\">\n" +
+                        "              <a href=\"images/5/shijianguiding.doc\" target=\"_blank\">南京大学软件学院关于学生工程实践管理暂行规定</a></p>\n" +
+                        "            <p>\n" +
+                        "              <a href=\"images/5/shijianshenqing.doc\" target=\"_blank\">南京大学软件学院学生工程实践申请表</a></p>\n" +
+                        "            <p>\n" +
+                        "              <a href=\"images/5/waichuxieyi.doc\" target=\"_blank\">南京大学软件学院学生外出实践协议书</a></p>\n" +
+                        "            <p>\n" +
+                        "              <a href=\"images/5/shijianxieyi.doc\" target=\"_blank\">南京大学软件学院学生工程实践协议书</a></p>\n" +
+                        "            <p>\n" +
+                        "              <a href=\"images/5/shixibaogao.docx\" target=\"_blank\">南京大学软件学院学生实习（阶段）总结报告</a></p>\n" +
+                        "            <p>\n" +
+                        "              <a href=\"images/5/danweipingjia.docx\" target=\"_blank\">南京大学软件学院学生实习单位评价表</a></p>\n" +
+                        "            <p>\n" +
+                        "              <a href=\"images/5/gctxieyi.pdf\" target=\"_blank\">南京大学软件学院关于在企业建立软件工程硕士实践基地的协议书</a></p>\n" +
+                        "            <p>\n" +
+                        "              <a href=\"images/5/zhishichanquan.pdf\" target=\"_blank\">南京大学软件学院学员工程实践知识产权及保密协议书</a></p>\n" +
+                        " \n" +
+                        "            <p>\n" +
+                        "              <span>实习流程</span>：</p>\n" +
+                        "            <p>\n" +
+                        "               <img alt=\"tupian\" height=\"958\" src=\"images/5/liucheng.jpg\" width=\"569\" /></p>\n");
+        save("南京大学软件学院2015届就业统计", "就业情况", "<img src=\"images/5/20151.png\">\n" +
                 "            <br/>\n" +
                 "            <br/>\n" +
                 "            <br/>\n" +
                 "            <br/>\n" +
                 "            <img src=\"images/5/20152.png\">\n");
-        save("南京大学软件学院2016届就业统计","就业情况","<img src=\"images/5/20161.png\">\n" +
+        save("南京大学软件学院2016届就业统计", "就业情况", "<img src=\"images/5/20161.png\">\n" +
                 "            <br/>\n" +
                 "            <br/>\n" +
                 "            <br/>\n" +
                 "            <br/>\n" +
                 "            <img src=\"images/5/20162.png\">\n");
-        save("校园文化","校园文化","<div class=\"gallery cf\">\n" +
+        save("校园文化", "校园文化", "<div class=\"gallery cf\">\n" +
                 "            <div>\n" +
                 "              <img src=\"images/1/1.png\" />\n" +
                 "            </div>\n" +
@@ -610,7 +610,7 @@ public class InitArticlesTest {
                 "              <img src=\"images/1/6.png\" />\n" +
                 "            </div>\n" +
                 "          </div>\n");
-        save("校友风采","校友风采","<div class=\"gallery cf\">\n" +
+        save("校友风采", "校友风采", "<div class=\"gallery cf\">\n" +
                 "            <div>\n" +
                 "              <img src=\"images/1/2016.png\" />\n" +
                 "            </div>\n" +
@@ -651,12 +651,62 @@ public class InitArticlesTest {
                 "              <img src=\"images/1/2004.png\" />\n" +
                 "            </div>\n" +
                 "          </div>\n");
-        save("H. Zhang:Spot Pricing in the Cloud Ecosystem: A Comparative Investigation","学术动态","H. Zhang:Spot Pricing in the Cloud Ecosystem: A Comparative Investigation");
-        save("H. Zhang:On the Communication Variability Analysis of the NeCTAR Research Cloud System","学术动态","H. Zhang:On the Communication Variability Analysis of the NeCTAR Research Cloud System");
-        save("校领导鼓楼校区值班表（12月5日--12月9日）","公告信息","校领导鼓楼校区值班表（12月5日--12月9日）");
-        save("校长办公室关于2016—2017学年第一学期期末教学工作的通知","公告信息","校长办公室关于2016—2017学年第一学期期末教学工作的通知");
-        save("南京大学本科招生宣传创意征集启事","公告信息","南京大学本科招生宣传创意征集启事");
-        save("校领导鼓楼校区值班表（12月12日——12月16日）","公告信息","校领导鼓楼校区值班表（12月12日——12月16日）");
+        save("H. Zhang:Spot Pricing in the Cloud Ecosystem: A Comparative Investigation", "学术动态", "H. Zhang:Spot Pricing in the Cloud Ecosystem: A Comparative Investigation");
+        save("H. Zhang:On the Communication Variability Analysis of the NeCTAR Research Cloud System", "学术动态", "H. Zhang:On the Communication Variability Analysis of the NeCTAR Research Cloud System");
+        save("校领导鼓楼校区值班表（12月5日--12月9日）", "公告信息", "校领导鼓楼校区值班表（12月5日--12月9日）");
+        save("校长办公室关于2016—2017学年第一学期期末教学工作的通知", "公告信息", "校长办公室关于2016—2017学年第一学期期末教学工作的通知");
+        save("南京大学本科招生宣传创意征集启事", "公告信息", "南京大学本科招生宣传创意征集启事");
+        save("校领导鼓楼校区值班表（12月12日——12月16日）", "公告信息", "<p>\n" +
+                "                        　　环保部部长陈吉宁说，大气污染防治行动计划已经实施三年多了，大家都很关心这三年到底有没有进展，特别是去年入冬以来出现了多个大面积的重污染天气，大家有一些困惑。我今天就你这个问题先谈一点概念，我们怎么看这个问题。空气质量包括PM2.5，主要受两个变量的影响，一是污染物的排放量，二是气象条件。其中气象条件是边界条件，决定了这个区域有多大的环境容量，也就是说，这个区域可以接受多少污染物的排放量，而环境质量不超标。污染物的排放量，我们认为它是一个自变量，是引起环境质量变化的决定因素。这两个变量所发挥的作用是不同的。\n" +
+                "                        　　在这两个因素中，气象条件是自然因素，是不可控的，而且它有一个突出的特点，这个特点是气象条件具有很强的波动性。随着小时、每天，甚至再长一点的时间尺度，每周、每月、每年都会有很大的变动。这意味着什么呢？意味着在一个地区环境的容量是随着气象条件变化的，在冬季更容易形成静稳天气的条件，所以冬季的环境容量是比较低的。但是冬季我们要取暖，又会增加污染物的排放量。这一减一增，导致了冬季频繁出现重污染天气。这是气象因素。\n" +
+                "                        　　第二个因素是排放量。排放量主要是人为因素造成的，所以它是一个可控因素。我们环保工作的目标就是把这个人为污染物排放量尽可能减下去，减到什么程度呢？减到最小环境容量允许的排放量，就会减少甚至不发生重污染天气。这个环境问题就解决了，就达标了。\n" +
+                "                        　　一般来讲，环境问题不是短期两三年可以解决的，需要一个比较长的时间，所以当我们判断一个环境污染控制策略是不是有效，需要把这些起波动作用的气象条件排除出去。这样我们才知道采取的措施方向对不对，力度够不够，这是一个非常重要的工作方法。\n" +
+                "                    </p>");
+        save("B类课程介绍", "B类课程介绍", "<p style=\"font-size:15px\">软件工程管理</p>\n" +
+                "          <p class=\"p1\">软件工程管理是软件工程学科的重要内容。本课程是研究生核心课程，课程教学的主要内容结合了软件工程经典论文书籍与当前研究的前沿领域，教授软件工程管理与过程知识。课程首先介绍了历史上对软件工程管理发展起到重要影响的文献，讨论软件工程的本质。然后进一步沿历史发展顺序介绍软件工程过程与管理中的重要理论和相关知识，包括计划驱动软件工程方法和敏捷软件开发的相关知识，并将两者进行了详细对比，帮助学生深刻理解软件工程管理中各种思想。此外，本课程还涉及了开源软件发展方法学等内容。同时，在教学过程中，课程还强调了使用批判性思维方法思考。本课程通过理论与案例教学，让学生掌握软件工程管理的概念、方法和最佳实践，从而培养学生综合运用所学知识进行软件工程管理的能力。</p>\n" +
+                "          <p style=\"font-size:15px\">软件体系结构</p>\n" +
+                "          <p class=\"p1\">软件体系结构是软件开发人员，尤其是软件架构师的必备知识技能。本课程主要解答以软件体系结构为中心的三个问题，即1）软件系统是如何组织构建的？2）系统要素之间是如何相互作用的？3）如何选择和评价软件设计？课程内容主要包括：软件体系结构的定义，软件架构悠关需求和质量属性，体系结构风格与模式、体系结构设计与描述、体系结构分析与评估，以及软件产品线架构、模型驱动的软件架构、软件基于中间件和面向服务体系结构等高级内容。本课程通过理论与案例教学，让学生掌握软件体系结构的概念、方法和最佳实践，从而培养学生综合运用所学知识设计软件系统和选择解决方案的能力。</p>\n" +
+                "          <p style=\"font-size:15px\">新技术研讨班</p>\n" +
+                "          <p class=\"p1\">软件工程各具体技术、方法、理论的研究发展不断产生新的成果，学生除了基础软件工程理论以外，还需要了解学术、工业界的最新进展。本课程采取小班讨论课形式，由教师选取一个最新的技术前沿话题，有兴趣的学生加入课题后组成小的研讨班，通常学生人数在10人左右。教师在研讨班中组织学生阅读论文、写作、翻译、讨论课题内容，也可以要求学生进行开发工作。本课程可以使得学生接触前沿新技术、方法和理论，培养学生的研究开发能力。</p>");
+        save("C类课程介绍", "C类课程介绍", "          <p style=\"font-size:15px\">敏捷软件开发</p>\n" +
+                "          <p class=\"p1\">敏捷软件开发是2000年以后逐渐成为主流的软件开发方法论，是当前软件工程实践的重要内容。课程内容包括：首先介绍软件开发的历史，着重描述敏捷软件开发的发展过程；然后讨论以敏捷宣言为代表的敏捷软件开发思想；最后详细讨论了Scrum敏捷开发管理框架以及极限编程中的重要实践。课程即包含了过程与项目管理内容，也包含了部分在敏捷软件开发中常见的技术实践。在课程进行过程中，要求学生按照敏捷方法在教师的指导下进行敏捷实践。</p>\n" +
+                "          <p style=\"font-size:15px\">高级人机交互技术</p>\n" +
+                "          <p class=\"p1\">本课程是软件工程专业的硕士研究生必修课程，相比较本科生的人机交互课程设置，该课程更加侧重前沿人机交互技术的介绍，并教会学生如何应用本科阶段所学的交互设计方法构造各类前沿交互方式与界面。具体内容包括：人机交互基本概念与发展历史、交互设计原则、普适计算原理及应用、眼动交互技术特点与局限、笔交互技术、可视化技术及在大数据时代的应用、穿戴计算的历史与发展、手势交互技术与应用等。</p>");
+        save("D类课程介绍", "D类课程介绍", "<p style=\"font-size:15px\">软件过程改进</p>\n" +
+                "          <p class=\"p1\">软件过程改进是软件组织管理本组织最佳实践，满足组织业务目标的主要手段。本课程主要围绕如何组织和实施软件过程改进活动展开。课程内容包括：软件过程定义、软件过程改进元模型、能力成熟度模型、基于上下文的软件过程元素选择和融合、软件过程改进基础设施构建、统计过程控制、软件过程评估方法等等。本课程结合理论和案例讲解，旨在帮助学生建立正确的软件质量观，理解如何通过过程改进来优化流程，更好地实现软件组织业务目标。</p>\n" +
+                "          <p style=\"font-size:15px\">高级经验软件工程</p>\n" +
+                "          <p class=\"p1\">经验研究方法已成为软件工程学科的主流研究方法。本课程面向研究生和本科高年级学生，讲解科学研究和经验方法的基础知识，培养科学研究的基本素养。通过课程学习，学生将实现以下教学目标：接触、理解什么是科学研究和软件工程研究；初步掌握科学研究和软件工程研究中的主要研究方法；具备评价科学研究的基础知识；有能力完成自己的研究设计；获得使用研究方法的初步经验；从自己所感兴趣的领域中发现研究机遇。教学内容包括：科学世界观与经验研究基础、文献检索与系统化评价、实验研究、案例研究、调研方法、研究方法的比较与选择、研究方法的综合设计与应用等。课程教学通过课堂面授、文献检索阅读、完成报告和研究设计、课堂演示（翻转课堂）等形式，以使学生理解、掌握主要的（经验）研究方法。课程评价以报告和演示为主，不设考试。</p>\n" +
+                "          <p style=\"font-size:15px\">软件质量保障</p>\n" +
+                "          <p class=\"p1\">课程涵盖软件质量控制和保障领域的新方法和新技术，包括软件可靠性工程和统计质量控制两方面内容。可靠性工程部分包括软件缺陷和失效、操作剖面、容错结构、可靠性测试、可靠性判定、可靠性增长模型等知识；统计质量控制部分包括控制图、假设检验、实验设计和方差分析等知识。通过课程教学，要求学生全面理解和掌握CMM&frasl;CMMI各层次（尤其是量化管理层）的质量保障工作及其含义，能够将质量保障技术应用于实践。</p>\n" +
+                "          <p style=\"font-size:15px\">系统分析与设计</p>\n" +
+                "          <p class=\"p1\">本课程较详细的介绍了软件系统分析与设计的基本知识、基本组成、体系结构和分析以及设计方法和常用工具等，针对一个实际问题利用数据流程图、数据字典、系统结构图、程序流程图等方法，通过需求调研、系统分析、概要设计、详细设计等过程，完成一个可行的软件系统建设方案，并提交系统设计报告。</p>\n" +
+                "          <p style=\"font-size:15px\">前沿软件工程技术</p>\n" +
+                "          <p class=\"p1\">软件工程技术的发展速度很快，学生在研究生期间有必要了解当前软件工程技术的最新内容。本课程邀请工业界知名技术专家，就当前技术热点，结合各位专家的本职工作和个人体会介绍相关主题：“互联网产品方法论”、“架构实践与微服务”、“大数据应用”、“移动开发和前端技术”、“无线测试技术”、 “敏捷与技术组织变革”、“DevOps”等。本课程通过学生与产业界技术专家面对面交流，让学生学习当前技术前沿知识，使得学生尽快满足产业界对软件工程技术人员要求。</p>\n" +
+                "          <p style=\"font-size:15px\">软件产品规划</p>\n" +
+                "          <p class=\"p1\">产品经理在当前的软件企业尤其是互联网企业中承担着越来越重要的角色，本课程针对产品经理的能力需求进行设计。课程内容包括：产品设计思维、互联网思维以及产品观、产品定位与用户需求洞察、MVP、构建竞争壁垒与竞品分析、产品战略与鸿沟模型、用户体验驱动的产品设计、数据驱动的产品运营、打造产品影响力、GrowthHacking、创新衡量与商业模式评估。通过本课程的学习，学生可以具备基本的产品经理能力。</p>\n" +
+                "          <p style=\"font-size:15px\">高级软件设计</p>\n" +
+                "          <p class=\"p1\">随着中国软件产业的快速发展，软件产业逐步向产业上游发展，对系统软件、基础软件设计人员的需求逐步提升。软件设计是软件工程学科的重要内容，本课程是软件设计的高阶课程。教学内容主要以案例和实践为主，讨论系统级软件和应用程序框架的设计和开发，同时要求学生进行大量实践。本课程培养学生从事基础软件、系统软件的开发能力。</p>\n" +
+                "          <p style=\"font-size:15px\">软件工程工作坊</p>\n" +
+                "          <p class=\"p1\">软件工程专业学习需要指导和实践。本课程引入企业界真实项目和企业界工程师到研究生课程教学中，使得学生在真实的项目中学习软件工程知识和技能。企业就其真实需求提出项目申请，学院组织教师团队对项目进行评估，并要求企业提供技术人员对学生团队进行指导。项目开始后，企业技术人员每周都会与学生进行沟通和交流，同时学院会使用信息化系统对项目进展进行监控。通过本课程的学习，学生在真实的项目中接受锻炼，增长软件工程实践能力。</p>\n" +
+                "          <p style=\"font-size:15px\">高级计算机网络</p>\n" +
+                "          <p class=\"p1\">本课程是研究生选修课程，其主要特点是理论与实践结合性强。课程首先在计算机网络基本原理和相关设备基本功能的基础上，进一步详细讲述路由协议实现细节，高级路由协议，三层交换技术，广域网技术，互联程序设计等；然后课程就一些热点网络专题展开讨论，包括网络服务质量，网络安全，组播技术等；最后再介绍网络的发展方向包括IPv6，移动计算等。本课程还要求学生动手实验进一步理解计算机网络的设计思想和实现技术。</p>\n" +
+                "          <p style=\"font-size:15px\">云计算</p>\n" +
+                "          <p class=\"p1\">云计算是当前计算机领域的技术热点，并与大数据、物联网等息息相关。本课程主要着眼于与云计算相关的两个问题：1）云计算是什么？2）如何利用云计算来推动计算机应用的发展？本课程采用了课堂讲授、课程实践和翻转讨论相结合的形式。课堂讲授以云计算的基本概念为导引，对存储、计算模型、虚拟化、安全等关键技术重点讲解；课程实践从开源云平台的部署入手，锻炼学生实际开发面向云平台的应用系统，加深对云计算优势和适用范围的理解；翻转讨论围绕主流的商业云平台、开源云平台、云计算典型应用等案例展开，进一步开拓学生的视野，帮助学生形成对云计算更为全面的了解。</p>\n" +
+                "          <p style=\"font-size:15px\">数据挖掘</p>\n" +
+                "          <p class=\"p1\">With the development of ubiquitous devices and online storage, it has never been easier to collect and record data nowadays.  We simply postpone making decisions on what to do with all the stuffs and keep it all. Unfortunately, as the volume of data increases, it is more difficult to take advantage of potentially useful information hidden in the data. The overall goal of data mining is to extract hidden information from a dataset and present it in an understandable structure for further use. It is an interdisciplinary subfield of computer science involving methods at the intersection of artificial intelligence, machine learning, statistics and database systems. It involves data management aspects, data pre-processing, mode and inference considerations, interestingness metrics, complexity considerations, post-processing of discovered structures, visualization, and online updating.This course will examine methods that have been proven to be of value in data mining, which includes fundamental data mining techniques (classification, clustering, association rules, etc.) and massive data mining techniques to handle very large amounts of data, so large it does not fit in main memory. We will focus on useful applications in text and web mining, multimedia mining, and experiment with algorithms using well-known data mining software (Weka, Scikit-learn).</p>\n" +
+                "          <p style=\"font-size:15px\">分布式计算系统</p>\n" +
+                "          <p class=\"p1\">本课程是软件工程专业的硕士研究生课程。讲授分布式计算系统的基本原理、概念和技术，包括：分布式进程、通信、命名、同步与互斥、一致性和复制、容错以及安全等，并包含基于对象的分布式系统、以及分布式计算的高级话题，如：P2P、普适计算、移动计算、Web services、网格计算、云计算等。</p>\n" +
+                "          <p style=\"font-size:15px\">嵌入式系统工程</p>\n" +
+                "          <p class=\"p1\">该课程是为南京大学软件学院硕士研究生开设的一门专业选修课。学生须有一定的嵌入式系统基础，本课程进一步加强其对嵌入式系统的理解，及对某些专题的深入研究，如嵌入式处理器体系结构与编程、嵌入式软件体系结构、实时操作系统设计、嵌入式Linux等，并通过具体的实验和课程项目，进一步增强学生的实践能力。本课程强调系统性、专题性、深入性，强调各种层次、各种类型的练习和实践，强调自学和查阅资料的能力。</p>\n" +
+                "          <p style=\"font-size:15px\">高级数据库开发技术</p>\n" +
+                "          <p class=\"p1\">高级数据库开发技术是研究生方向指选课，是信息系统开发中重要的知识技能。这门课主要解决在数据库开发中三个重要的问题，1）大规模数据的查询更新的技术；2）高并发下数据的查询和更新技术；3）数据优化技术。课程的主要内容包括：基于体系结构的数据库应用开发优化策略、索引优化设计和策略、数据组织优化设计和策略、SQL优化设计开发、数据模式的优化设计、高并发数据应用开发、NOSQL环境下的数据开发等高级内容。本课程通过理论与案例教学，让学生掌握高级数据库开发技术的概念、方法和最佳实践，从而培养学生综合运用所学知识开发高性能数据库应用和选择解决方案的能力。</p>\n" +
+                "          <p style=\"font-size:15px\">数据仓库与知识发现</p>\n" +
+                "          <p class=\"p1\">本课程主要介绍在大型数据库中发现知识（Knowledge Discovery in Large Databases, KDD）的各种技术，是专门针对决策支持中的各类问题进行讨论的高端课程。面向对象为软件工程专业硕士研究生。 本课程讲授的主要内容包括：数据预处理、数据仓库及OLAP、概念描述型数据挖掘、关联规则挖掘、分类挖掘和预测以及聚类挖掘，涉及的领域包括数理统计、概率论、机器学习、信息论、集合论等等。</p>\n" +
+                "          <p style=\"font-size:15px\">高级电子商务</p>\n" +
+                "          <p class=\"p1\">本课程是选修课，目的不仅是要让学生对已学的知识、即将学习的知识有所关联，更重要的是，要让学生能够具备利用技术创造价值的意识。本课程采用两条线索讲授电子商务，这两条线索分别是：电子商务的业务管理知识（包括商业模式）和技术知识。围绕业务管理知识为主线，同时讲解电子商务应用、技术与实施。本课程主要内容有：电子商务与电子市场导论、电子商务技术应用概述、B2C电子商务应用、B2B电子商务应用、移动商务、电子商务支持服务、电子商务战略与实施。补充知识，包括电子商务的商务模式、电子商务商务计划的要素与组成、EAI基础与常见软件系统集成框架、电子商务软件系统集成。</p>\n" +
+                "          <p style=\"font-size:15px\">网络安全与信息安全</p>\n" +
+                "          <p class=\"p1\">本课程不仅适合于信息安全专业的学生专业学习，也适合金融、电信等行业IT人员及有关业务人员的学习。随着计算机安全技术的发展，PKI在国内外已得到广泛应用。它是开展电子商务、电子政务、网上银行、网上证券交易等不可缺少的安全基础设施。主要内容有，从PKI的概念及理论基础、PKI的体系结构、PKI的主要功能、PKI服务、PKI实施及标准化，以及基于PKI技术的典型应用，全面介绍PKI技术及其应用的相关知识。学生通过本课程的学习，能够了解PKI的发展趋势，并对其关键技术及相关知识有一定认识和掌握。</p>");
+
     }
 
     private void save(String title, String type, String html) {

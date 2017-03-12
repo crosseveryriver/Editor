@@ -47,6 +47,27 @@ public class WebsiteController {
         return "kechengjieshao";
     }
 
+    @RequestMapping("/B")
+    public String kechengjieshaoB(Model model) {
+        Article article = articleService.getReleaseArticlesByType("B类课程介绍").get(0);
+        model.addAttribute(article);
+        return "kechengjieshao";
+    }
+
+    @RequestMapping("/C")
+    public String kechengjieshaoC(Model model) {
+        Article article = articleService.getReleaseArticlesByType("C类课程介绍").get(0);
+        model.addAttribute(article);
+        return "kechengjieshao";
+    }
+
+    @RequestMapping("/D")
+    public String kechengjieshaoD(Model model) {
+        Article article = articleService.getReleaseArticlesByType("D类课程介绍").get(0);
+        model.addAttribute(article);
+        return "kechengjieshao";
+    }
+
     @RequestMapping("/jiangzhuxuejin")
     public String jiangzhuxuejin(Model model) {
         Article article = articleService.getReleaseArticlesByType("奖助学金").get(0);
@@ -131,7 +152,12 @@ public class WebsiteController {
         model.addAttribute(article);
         return "xiaoyoufengcai";
     }
-    /* 下面这7个页面是不需要的，被/gonggaoxinxi/id{id}，/xueshudongtai/id{id}取代，暂时不删掉，下一个版本再删*/
+
+    @RequestMapping("/boshisheng")
+    public String page4(Model model) {
+        return "boshisheng";
+    }
+    /* 下面这3个页面是不需要的，被/gonggaoxinxi/id{id}，/xueshudongtai/id{id}取代，暂时不删掉，下一个版本再删*/
     @RequestMapping("/2015qingkuang")
     public String page1(Model model) {
         return "2015qingkuang";
@@ -140,26 +166,6 @@ public class WebsiteController {
     @RequestMapping("/2016qingkuang")
     public String page2(Model model) {
         return "2015qingkuang";
-    }
-
-    @RequestMapping("/B")
-    public String page3(Model model) {
-        return "B";
-    }
-
-    @RequestMapping("/boshisheng")
-    public String page4(Model model) {
-        return "boshisheng";
-    }
-
-    @RequestMapping("/C")
-    public String page5(Model model) {
-        return "C";
-    }
-
-    @RequestMapping("/D")
-    public String page6(Model model) {
-        return "D";
     }
 
     @RequestMapping("/gonggaoxiangqing")
