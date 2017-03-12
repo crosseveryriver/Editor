@@ -1,88 +1,176 @@
 package nju.editor.controller;
 
+import nju.editor.model.Article;
+import nju.editor.service.ArticleService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import java.util.List;
 
 /**
  * Created by wangzehao on 2017/3/11.
  */
 @Controller
 public class WebsiteController {
-    @RequestMapping("/2015qingkuang")
-    public String page1(Model model){
-        return "2015qingkuang";
-    }
-    @RequestMapping("/2016qingkuang")
-    public String page2(Model model){
-        return "2015qingkuang";
-    }
-    @RequestMapping("/B")
-    public String page3(Model model){
-        return "B";
-    }
-    @RequestMapping("/boshisheng")
-    public String page4(Model model){
-        return "boshisheng";
-    }
-    @RequestMapping("/C")
-    public String page5(Model model){
-        return "C";
-    }
-    @RequestMapping("/D")
-    public String page6(Model model){
-        return "D";
-    }
-    @RequestMapping("/gonggaoxiangqiong")
-    public String page7(Model model){
-        return "gonggaoxiangqiong";
-    }
-    @RequestMapping("/gonggaoxinxi")
-    public String page8(Model model){
-        return "gonggaoxinxi";
-    }
+    @Autowired
+    private ArticleService articleService;
+
     @RequestMapping("/index")
-    public String page11(Model model){
+    public String index(Model model) {
+        List<Article> xueshudongtaiList = articleService.getReleaseArticlesByType("学术动态");
+        if (xueshudongtaiList.size() > 10) {
+            xueshudongtaiList = xueshudongtaiList.subList(0, 10);
+        }
+        List<Article> gonggaoxinxiList = articleService.getReleaseArticlesByType("公告信息");
+        if (gonggaoxinxiList.size() > 5) {
+            gonggaoxinxiList = gonggaoxinxiList.subList(0, 5);
+        }
+        model.addAttribute(xueshudongtaiList);
+        model.addAttribute(gonggaoxinxiList);
         return "index";
     }
-    @RequestMapping("/jiangzhuxuejin")
-    public String page12(Model model){
-        return "jiangzhuxuejin";
-    }
-    @RequestMapping("/jiuyeqingkuang")
-    public String page13(Model model){
-        return "jiuyeqingkuang";
-    }
-    @RequestMapping("/kechengjieshao")
-    public String page14(Model model){
-        return "kechengjieshao";
-    }
+
     @RequestMapping("/peiyangfangan")
-    public String page15(Model model){
+    public String peiyangfangan(Model model) {
+        Article article = articleService.getReleaseArticlesByType("培养方案").get(0);
+        model.addAttribute(article);
         return "peiyangfangan";
     }
-    @RequestMapping("/shixiguiding")
-    public String page16(Model model){
-        return "shixiguiding";
+
+    @RequestMapping("/kechengjieshao")
+    public String page14(Model model) {
+        Article article = articleService.getReleaseArticlesByType("课程介绍").get(0);
+        model.addAttribute(article);
+        return "kechengjieshao";
     }
-    @RequestMapping("/shixijidi")
-    public String page17(Model model){
-        return "shixijidi";
+
+    @RequestMapping("/jiangzhuxuejin")
+    public String page12(Model model) {
+        Article article = articleService.getReleaseArticlesByType("奖助学金").get(0);
+        model.addAttribute(article);
+        return "jiangzhuxuejin";
     }
-    @RequestMapping("/xiaoyoufengcai")
-    public String page18(Model model){
-        return "xiaoyoufengcai";
-    }
-    @RequestMapping("/xueyuanwenhua")
-    public String page26(Model model){
-        return "xueyuanwenhua";
-    }
-    @RequestMapping("/xueshudongtai")
-    public String page27(Model model){
-        return "xueshudongtai";
-    }
+
     @RequestMapping("/yanjiusheng")
-    public String page28(Model model){
+    public String page28(Model model) {
+        Article article = articleService.getReleaseArticlesByType("研究生招生").get(0);
+        model.addAttribute(article);
         return "yanjiusheng";
     }
+
+    @RequestMapping("/shixijidi")
+    public String page17(Model model) {
+        Article article = articleService.getReleaseArticlesByType("实习基地").get(0);
+        model.addAttribute(article);
+        return "shixijidi";
+    }
+
+    @RequestMapping("/shixiguiding")
+    public String page16(Model model) {
+        Article article = articleService.getReleaseArticlesByType("实习规定").get(0);
+        model.addAttribute(article);
+        return "shixiguiding";
+    }
+
+
+    @RequestMapping("/jiuyeqingkuang")
+    public String page13(Model model) {
+        Article article = articleService.getReleaseArticlesByType("就业情况").get(0);
+        model.addAttribute(article);
+        return "jiuyeqingkuang";
+    }
+
+    @RequestMapping("/xueshudongtai")
+    public String page27(Model model) {
+        List<Article> xueshudongtaiList = articleService.getReleaseArticlesByType("学术动态");
+        model.addAttribute(xueshudongtaiList);
+        return "xueshudongtai";
+    }
+
+    @RequestMapping("/xueshudongtai/id{id}")
+    public String xueshudongtaiById(@PathVariable Long id, Model model){
+        Article article = articleService.getArticleById(id);
+        model.addAttribute(article);
+        return "xueshudongtai.id";
+    }
+
+    @RequestMapping("/gonggaoxinxi")
+    public String page8(Model model) {
+        List<Article> gonggaoxinxiList = articleService.getReleaseArticlesByType("公告信息");
+        model.addAttribute(gonggaoxinxiList);
+        return "gonggaoxinxi";
+    }
+
+    @RequestMapping("/gonggaoxinxi/id{id}")
+    public String gonggaoxinxiById(@PathVariable Long id, Model model){
+        Article article = articleService.getArticleById(id);
+        model.addAttribute(article);
+        return "gonggaoxinxi.id";
+    }
+
+    @RequestMapping("/xiaoyuanwenhua")
+    public String xiaoyuanwenhua(Model model) {
+        Article article = articleService.getReleaseArticlesByType("校园文化").get(0);
+        model.addAttribute(article);
+        return "xueyuanwenhua";
+    }
+
+    @RequestMapping("/xiaoyoufengcai")
+    public String page18(Model model) {
+        Article article = articleService.getReleaseArticlesByType("校友风采").get(0);
+        model.addAttribute(article);
+        return "xiaoyoufengcai";
+    }
+
+    @RequestMapping("/2015qingkuang")
+    public String page1(Model model) {
+        return "2015qingkuang";
+    }
+/* 下面这6个页面是不需要的，被/gonggaoxinxi/id{id}，/xueshudongtai/id{id}取代，暂时不删掉，下一个版本再删*/
+    @RequestMapping("/2016qingkuang")
+    public String page2(Model model) {
+        return "2015qingkuang";
+    }
+
+    @RequestMapping("/B")
+    public String page3(Model model) {
+        return "B";
+    }
+
+    @RequestMapping("/boshisheng")
+    public String page4(Model model) {
+        return "boshisheng";
+    }
+
+    @RequestMapping("/C")
+    public String page5(Model model) {
+        return "C";
+    }
+
+    @RequestMapping("/D")
+    public String page6(Model model) {
+        return "D";
+    }
+
+    @RequestMapping("/gonggaoxiangqiong")
+    public String page7(Model model) {
+        return "gonggaoxiangqiong";
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
