@@ -28,8 +28,8 @@ public class WebsiteController {
         if (gonggaoxinxiList.size() > 5) {
             gonggaoxinxiList = gonggaoxinxiList.subList(0, 5);
         }
-        model.addAttribute(xueshudongtaiList);
-        model.addAttribute(gonggaoxinxiList);
+        model.addAttribute("xueshudongtaiList",xueshudongtaiList);
+        model.addAttribute("gonggaoxinxiList",gonggaoxinxiList);
         return "index";
     }
 
