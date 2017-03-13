@@ -297,8 +297,8 @@
                     <th>作者</th>
                     <th>发布日期</th>
                 </tr>
-                <tr th:each="article : ${xueshudongtaiList}">
-                    <td><a href="#" th:href="@{/xueshudongtai(id=${article.id})}" th:text="${article.title}">Post 1</a> </td>
+                <tr th:each="article : ${gonggaoxinxiList}">
+                    <td><a href="#" th:href="@{/gonggaoxinxi/id}+${article.id}" th:text="${article.title}">Post 1</a> </td>
                     <td>Admin</td>
                     <td th:text="${article.createdAt}">2017-1-1</td>
                 </tr>
